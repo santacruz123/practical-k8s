@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: ping
-    image: ping:1
+    image: public.ecr.aws/x6l5c3l5/tikal:ping
     command: ["./ping"]
     env:
     - name: HOSTNAME
